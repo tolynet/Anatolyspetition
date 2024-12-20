@@ -98,4 +98,3 @@ public class PetitionController {
         return "petition-details";
     }
 }
-

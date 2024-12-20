@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('GetProject') {
             steps {
-                git branch: 'main', url: 'https://github.com/tolynet/Anatolyspetition.git'
+                git branch: 'main', url: 'https://github.com/tolynet/anatolyspetition.git'
             }
         }
         stage('Build') {
